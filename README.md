@@ -1,5 +1,9 @@
 ![badge](https://img.shields.io/badge/Project-Full--Stack%20QA-blue)
 ![badge](https://img.shields.io/badge/CI--CD-Ready-green)
+![badge](https://img.shields.io/badge/Performance-Tested%20with%20JMeter-orange)
+![badge](https://img.shields.io/badge/BDD-Cucumber%20Integrated-yellow)
+![badge](https://img.shields.io/badge/Docker-Kubernetes%20Aware-lightgrey)
+
 
 # Parabank QA Automation Suite
 
