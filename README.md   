@@ -1,0 +1,82 @@
+# Parabank QA Automation Suite
+
+## Overview
+This is a full-stack, CI/CD-ready QA automation framework designed to validate the Parabank demo application across multiple layers:
+
+- ✅ API Testing (RestAssured + TestNG)
+- ✅ UI Testing (Selenium + Page Object Model)
+- ✅ Database Validation (JDBC + SQL)
+- ✅ BDD Testing (Cucumber + Gherkin)
+- ✅ Performance Testing (JMeter)
+- ✅ Microservices Testing (Docker + Kubernetes)
+- ✅ Reporting (Allure, Extent, PDF)
+- ✅ CI/CD Integration (Maven + Docker + Jenkins/GitHub Actions)
+
+---
+
+## Project Structure
+Parabank-QA-Automation-Suite/
+ ├── API/ 			# API test classes
+ ├── reports/ 		# Allure, Extent, PDF reports
+├── src/
+│ ├── test/
+│ │ ├── java/
+│ │ │ ├── api/ 		# Modular API tests
+│ │ │ ├── dbTests/ 		# DB validation tests
+│ │ │ ├── features/		 # Gherkin feature files
+│ │ │ ├── microservice/	# Microservice test logic
+│ │ │ ├── pageObjects/ 	# Selenium Page Object Model
+│ │ │ ├── runner/ 		# Cucumber/TestNG runners
+│ │ │ ├── standaloneTests/ 	# Principle-based demos
+│ │ │ ├── stepDefinitions/ 		# Cucumber step bindings
+│ │ │ ├── tests/ 		# UI test cases
+│ │ │ ├── utils/ 		# Reusable utilities
+│ │ ├── jmeter/ 		# JMeter performance scripts
+│ │ ├── resources/ 		# SQL, JSON, config files
+│ │ ├── screenShots/ 	# UI evidence
+ ├── docker-compose.yml 		# App + Selenium Grid
+ ├── docker-compose.selenium-grid.yml
+ ├── pom.xml 		# Maven build + dependencies
+ ├── .gitignore
+ ├── index.html 		# Report entry point
+
+
+## Technologies Used:
+| Layer         | Tools & Frameworks                          |
+|---------------|---------------------------------------------|
+| API Testing   | RestAssured, TestNG                         |
+| UI Testing    | Selenium WebDriver, TestNG, POM             |
+| DB Validation | JDBC, MySQL, SQL                            |
+| BDD           | Cucumber, Gherkin, TestNG runner            |
+| Performance   | Apache JMeter                               |
+| Microservices | Docker, Kubernetes                          |
+| Reporting     | Allure, ExtentReports, PDF, HTML            |
+| CI/CD         | Maven, Jenkins, GitHub Actions              |
+
+---
+
+## How to Run Tests
+
+### Run all TestNG tests:
+```bash: mvn clean test
+Run Cucumber BDD tests:
+```bash: mvn test -Dcucumber.options="--tags @Smoke"
+Generate Allure Report:
+```bash:
+mvn allure:report
+mvn allure:serve
+
+Key Principles Demonstrated
+•	Backend constraints: JSON and SQL tests show how unsupported formats return 403/404.
+•	Modular architecture: Each layer is isolated and reusable.
+•	Traceability: Reports, screenshots, and logs are stored per run.
+•	CI/CD readiness: Fully Maven-compatible and Dockerized.
+
+Author:
+Md Aktaruzzaman QA Automation Engineer Durham, NC Focused on building scalable, full-stack QA pipelines with CI/CD integration.
+
+Contact:
+For questions, collaboration, or portfolio review:
+mazaman16@gmail.com
+https://linkedin.com/in/mdzaman19
+[GitHub Portfolio]

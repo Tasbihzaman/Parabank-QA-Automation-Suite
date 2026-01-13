@@ -1,0 +1,7 @@
+services:
+  parabank:
+    image: parasoft/parabank
+    container_name: parabank
+    ports:
+      - "9090:8080"
+    restart: unless-stopped

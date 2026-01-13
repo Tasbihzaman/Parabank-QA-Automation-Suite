@@ -1,0 +1,6 @@
+{
+  "fromAccountId": "12345",
+  "toAccountId": "67890",
+  "amount": 100.00,
+  "description": "Load test transfer"
+}
