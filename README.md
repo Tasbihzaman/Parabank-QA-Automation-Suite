@@ -80,10 +80,16 @@ Key Principles Demonstrated
 •	CI/CD readiness: Fully Maven-compatible and Dockerized.
 
 Author:
-Md Aktaruzzaman QA Automation Engineer Durham, NC Focused on building scalable, full-stack QA pipelines with CI/CD integration.
+Md Aktaruzzaman QA Automation Engineer Durham, NC 
+Focused on building scalable, full-stack QA pipelines with CI/CD integration.
 
 Contact:
 For questions, collaboration, or portfolio review:
-Email: mazaman16@gmail.com
-Linkedin: https://linkedin.com/in/mdzaman19
-GitHub Portfolio: https://github.com/Tasbihzaman
+Email: mazaman16@gmail.com (gmail.com in Bing)
+LinkedIn: linkedin.com/in/mdzaman19
+GitHub Portfolio: github.com/Tasbihzaman
+
+⚠️ Notice
+This automation framework project is created and maintained by Md Aktaruzzaman.
+It is intended for learning, portfolio demonstration and professional evaluation purposes.
+Unauthorized copying, reuse, redistribution, representation as original work, or claiming ownership of this project is prohibited.
