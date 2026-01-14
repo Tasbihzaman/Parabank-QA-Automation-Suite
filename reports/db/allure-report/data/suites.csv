@@ -1,7 +1,0 @@
-"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","1","validateFundTransferInDB","ParaBank DB Suite","2026-01-01","skipped","2026-01-01","dbTests.FundTransferDBTest","DB Tests","dbTests.FundTransferDBTest","validateFundTransferInDB"
-"","1","validateCustomerNameInDB","ParaBank DB Suite","2026-01-01","skipped","2026-01-01","dbTests.CustomerDBTest","DB Tests","dbTests.CustomerDBTest","validateCustomerNameInDB"
-"","0","validateUIUpdateReflectsInDB","ParaBank DB Suite","2026-01-01","passed","2026-01-01","dbTests.UI_DB_ValidationTest","DB Tests","dbTests.UI_DB_ValidationTest","validateUIUpdateReflectsInDB"
-"","52","validateUserExistsInDB","ParaBank DB Suite","2026-01-01","skipped","2026-01-01","dbTests.LoginDBTest","DB Tests","dbTests.LoginDBTest","validateUserExistsInDB"
-"","57","validateAPIResponseWithDB","ParaBank DB Suite","2026-01-01","skipped","2026-01-01","dbTests.CustomerAPI_DB_ValidationTest","DB Tests","dbTests.CustomerAPI_DB_ValidationTest","validateAPIResponseWithDB"
-"","2189","validateAccountCreationInDB","ParaBank DB Suite","2026-01-01","skipped","2026-01-01","dbTests.AccountCreationDBTest","DB Tests","dbTests.AccountCreationDBTest","validateAccountCreationInDB"
