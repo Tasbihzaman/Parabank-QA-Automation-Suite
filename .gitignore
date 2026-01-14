@@ -14,8 +14,8 @@ logs/
 jmeter/bin/
 jmeter/results/
 jmeter/reports/
-*.jmx
 *.jtl
+*.log
 *.zip
 
 # Allure
