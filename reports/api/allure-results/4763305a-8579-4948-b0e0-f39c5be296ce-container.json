@@ -1,1 +1,0 @@
-{"uuid":"4763305a-8579-4948-b0e0-f39c5be296ce","name":"microservice.ProductServiceTests","children":["0139f24b-dec5-4f72-996e-b94c9d52dda2"],"befores":[{"name":"setup","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1767858402826,"stop":1767858402974}],"afters":[],"start":1767858402816,"stop":1767858403525}
