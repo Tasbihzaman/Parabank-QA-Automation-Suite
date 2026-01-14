@@ -3,6 +3,8 @@
 ![badge](https://img.shields.io/badge/Performance-Tested%20with%20JMeter-orange)
 ![badge](https://img.shields.io/badge/BDD-Cucumber%20Integrated-yellow)
 ![badge](https://img.shields.io/badge/Docker-Kubernetes%20Aware-lightgrey)
+[![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+
 
 
 # Parabank QA Automation Suite
