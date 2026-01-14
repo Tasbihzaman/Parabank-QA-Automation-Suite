@@ -22,30 +22,32 @@ This is a full-stack, CI/CD-ready QA automation framework designed to validate t
 ---
 
 ## Project Structure
+```text
 Parabank-QA-Automation-Suite/
- ├── API/ 			# API test classes
- ├── reports/ 		# Allure, Extent, PDF reports
-├── src/
-│ ├── test/
-│ │ ├── java/
-│ │ │ ├── api/ 		# Modular API tests
-│ │ │ ├── dbTests/ 		# DB validation tests
-│ │ │ ├── features/		 # Gherkin feature files
-│ │ │ ├── microservice/	# Microservice test logic
-│ │ │ ├── pageObjects/ 	# Selenium Page Object Model
-│ │ │ ├── runner/ 		# Cucumber/TestNG runners
-│ │ │ ├── standaloneTests/ 	# Principle-based demos
-│ │ │ ├── stepDefinitions/ 		# Cucumber step bindings
-│ │ │ ├── tests/ 		# UI test cases
-│ │ │ ├── utils/ 		# Reusable utilities
-│ │ ├── jmeter/ 		# JMeter performance scripts
-│ │ ├── resources/ 		# SQL, JSON, config files
-│ │ ├── screenShots/ 	# UI evidence
- ├── docker-compose.yml 		# App + Selenium Grid
+ ├── API/                          # API test classes
+ ├── reports/                      # Allure, Extent, PDF reports
+ ├── src/
+ │   ├── test/
+ │   │   ├── java/
+ │   │   │   ├── api/              # Modular API tests
+ │   │   │   ├── dbTests/          # DB validation tests
+ │   │   │   ├── features/         # Gherkin feature files
+ │   │   │   ├── microservice/     # Microservice test logic
+ │   │   │   ├── pageObjects/      # Selenium Page Object Model
+ │   │   │   ├── runner/           # Cucumber/TestNG runners
+ │   │   │   ├── standaloneTests/  # Principle-based demos
+ │   │   │   ├── stepDefinitions/  # Cucumber step bindings
+ │   │   │   ├── tests/            # UI test cases
+ │   │   │   ├── utils/            # Reusable utilities
+ │   ├── jmeter/                   # JMeter performance scripts
+ │   ├── resources/                # SQL, JSON, config files
+ │   ├── screenShots/              # UI evidence
+ ├── docker-compose.yml            # App + Selenium Grid
  ├── docker-compose.selenium-grid.yml
- ├── pom.xml 		# Maven build + dependencies
+ ├── pom.xml                       # Maven build + dependencies
  ├── .gitignore
- ├── index.html 		# Report entry point
+ ├── index.html                    # Report entry point
+```
 
 
 ## Technologies Used:
